@@ -15,12 +15,8 @@ import socket, struct   # For function related to IP address to/from number conv
 import sys              # For parsing command-line arguments and exiting, among others
 
 # Configuration (adapt to your setup before execution)
-# NFDUMP_PATH         = "/usr/local/bin/nfdump"
-# NFCAPD_DATA_PATH    = "/data/nfsen/profiles-data/live/utwente-sylvester"
-NFDUMP_PATH         = "/opt/local/bin/nfdump"
-# NFCAPD_DATA_PATH    = "./utwente-sylvester"
-# FILE_NAME           = "nfcapd.201409150150"
-NFCAPD_DATA_PATH    = "./invea-10g-seinhuis"
+NFDUMP_PATH         = "/usr/local/bin/nfdump"
+NFCAPD_DATA_PATH    = "/data/nfsen/profiles-data/live/<source>"
 FILE_NAME           = "nfcapd.201409200350"
 
 def parse_flow_record_pipe (line):
