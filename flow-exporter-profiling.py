@@ -1,5 +1,12 @@
 #!/usr/bin/python
 
+# Script for determining the brand, type and model of a flow exporter, merely based
+# on data collected by nfcapd (i.e., the flow collector).
+#
+# Author:   Rick Hofstede <rick.hofstede@redsocks.nl>
+#           RedSocks B.V.
+#
+
 from datetime import datetime
 from dateutil import parser
 import operator         # For funtions related to itemgetter, for example
