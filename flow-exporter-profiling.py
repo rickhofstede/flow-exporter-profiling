@@ -3,7 +3,7 @@
 # Script for determining the brand, type and model of a flow exporter, merely based
 # on data collected by nfcapd (i.e., the flow collector).
 #
-# Author:   Rick Hofstede <rick.hofstede@redsocks.nl>
+# Author:   Rick Hofstede <rick.hofstede&redsocks.nl>
 #           RedSocks B.V.
 #
 
